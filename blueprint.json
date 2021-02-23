@@ -1,0 +1,11 @@
+{
+	"about": {
+		"title": "lxd",
+		"explanation": "LXD Conifuration"
+	},
+	"provider": {
+		"type": "lxd"
+	},
+	"configuration": {
+	}
+}
