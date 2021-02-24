@@ -10,6 +10,7 @@
 		"version": "1.5.0",
 		"source": "terraform-lxd/lxd",
 		"generate_client_certificates": true,
-		"accept_remote_certificate": true
+		"accept_remote_certificate": true,
+		"password": "^^random(16)^^"
 	}
 }
