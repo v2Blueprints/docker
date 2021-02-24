@@ -1,11 +1,15 @@
 {
 	"about": {
 		"title": "lxd",
-		"explanation": "LXD Conifuration"
+		"explanation": "LXD Configuration"
 	},
 	"provider": {
 		"type": "lxd"
 	},
 	"configuration": {
+		"version": "1.5.0",
+		"source": "terraform-lxd/lxd",
+		"generate_client_certificates": true,
+		"accept_remote_certificate": true
 	}
 }
