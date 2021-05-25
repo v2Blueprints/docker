@@ -1,7 +1,7 @@
 {
 	"about": {
 		"title": "Docker",
-		"explanation": "Docker Configuration"
+		"explanation": "Docker Configuration BP"
 	},
 	"provider": {
 		"type": "docker"
