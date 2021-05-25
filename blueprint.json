@@ -1,16 +1,16 @@
 {
 	"about": {
-		"title": "lxd",
-		"explanation": "LXD Configuration"
+		"title": "Docker",
+		"explanation": "Docker Configuration"
 	},
 	"provider": {
-		"type": "lxd"
+		"type": "docker"
 	},
 	"configuration": {
-		"version": "1.5.0",
-		"source": "terraform-lxd/lxd",
-		"generate_client_certificates": true,
-		"accept_remote_certificate": true,
+		"version": "?",
+		"source": "?",
+		"generate_client_certificates": "?",
+		"accept_remote_certificate": "?",
 		"password": "^^random(16)^^"
 	}
 }
