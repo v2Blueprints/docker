@@ -1,16 +1,17 @@
 {
-	"about": {
-		"title": "Docker",
+  "identifier": "docker",
+  "about": {
+    "title": "Docker",
 		"explanation": "Docker Configuration BP"
-	},
-	"provider": {
-		"type": "docker"
-	},
-	"configuration": {
-		"version": "?",
-		"source": "?",
-		"generate_client_certificates": "?",
-		"accept_remote_certificate": "?",
-		"password": "^^random(16)^^"
-	}
+  },
+  "provider": {
+    "type": "docker"
+  },
+  "configuration": {
+    "version": "2.12.0",
+    "source": "kreuzwerker/docker",
+    "generate_client_certificates": "?",
+    "accept_remote_certificate": "?",
+    "password": "^^random(16)^^"
+  }
 }
