@@ -2,16 +2,18 @@
   "identifier": "docker",
   "about": {
     "title": "Docker",
-		"explanation": "Docker Configuration BP"
+    "explanation": "Docker Configuration BP"
   },
   "provider": {
     "type": "docker"
   },
   "configuration": {
-    "version": "2.12.0",
+    "version": "2.15.0",
     "source": "kreuzwerker/docker",
-    "generate_client_certificates": "?",
-    "accept_remote_certificate": "?",
+    "generate_client_certificates": true,
+    "accept_remote_certificate": true,
+    "scheme": "https",
+    "address": "192.168.20.220",
     "password": "^^random(16)^^"
   }
 }
